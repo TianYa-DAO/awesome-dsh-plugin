@@ -1,0 +1,7 @@
+url: https://github.com/TianYa-DAO/dsh-opencode-go-pool
+name: TianYa-DAO/dsh-opencode-go-pool
+category: model
+description:
+  en: Pools several OpenCode Go subscriptions behind one provider route, serving each request with the healthiest key and failing over when a quota window is spent.
+  zh: 把多个 OpenCode Go 订阅放在同一条 provider 路由后面：每次请求用额度最健康的一把 key，被网关拒绝时按窗口重置冷却并自动换下一把。
+tarball: https://github.com/TianYa-DAO/dsh-opencode-go-pool/releases/latest/download/dsh-opencode-go-pool-0.1.0.tgz
